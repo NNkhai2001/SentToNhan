@@ -1,2 +1,2 @@
 # Crusshh
-## Visit: https://nnkhai2001.github.io/Crusshh/
+## Visit: https://adapham.github.io/Crusshh/
