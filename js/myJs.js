@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "He luu cậu!",
+  text1: "He luu Nhàn!",
   text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
+  text3: "Chúng mình đi xem phim cùng nhau điiiiii ._.",
+  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn đồng ý đi rùi nhaaaa :v",
+  text5: "Khum đi đâuuuuu",
+  text6: "Tớ đồng ý <3",
+  text7: "lí do cậu đồng ý đi xem phim là gì :vvvv",
   text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vãiiiii",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text9: "Vì tớ muốn chúng mh trở nên thân thiết hơnnnnn",
+  text10: "Tớ biết mà, cám ơn cậu nhé, tớ sẽ chủ động gửi thời gian cho cậuuu, hi",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
+    "Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
   text12: "Okii lunn <3",
 };
 var au = new Audio("sound/ga.mp3");
@@ -129,7 +129,7 @@ $(document).ready(function () {
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
-                    url("img/anh-dong-gif-dep-va-de-thuong.gif")
+                    url("img/anh-de-thuong-001-1.jpg")
                     bottom 
                     no-repeat
                   `,
@@ -140,7 +140,7 @@ $(document).ready(function () {
       
       confirmButtonText: textConfig.text8,
     }).then((result) => {
-        var audio = new Audio("sound/MinhCuoiNhaDi.mp3");
+        var audio = new Audio("sound/TaylorSwift.mp3");
     
     audio.play();
       if (result.value) {
